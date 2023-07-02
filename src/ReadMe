@@ -1,0 +1,26 @@
+pip install pymysql
+pip install pyzipcode
+pip install Flask
+pip install pygal
+pip install SQLAlchemy
+pip install -U scikit-learn
+pip install pandas
+pip install numpy --upgrade
+pip install dash
+pip install cv
+pip install opencv-python
+pip install numpy==1.13.3
+
+
+set path=C:\Users\harsh\AppData\Local\Programs\Python\Python37
+
+D:
+
+cd D:\Project_Software\RiceDetection\src
+
+set FLASK_APP=Main.py
+$env:FLASK_APP = "Main.py"
+
+python -m flask run
+
+http://127.0.0.1:5000/
