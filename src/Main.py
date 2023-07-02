@@ -461,3 +461,6 @@ def fetchOPImg3(imgId):
 
 def allowed_file(filename):
     return "." in filename and filename.rsplit(".", 1)[1].lower() in ALLOWED_EXTENSIONS
+
+if __name__ == "__main__":
+    app.run(debug=False,host='0.0.0.0')
